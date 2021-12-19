@@ -141,7 +141,7 @@ Klik https://github.com/ikhsanmaulana15/Tugas5_BasisDataOracle/
        
        
 -------------------------------------------------------------------------------------------            
-##  7. Screenshoot dan Penjelasan Tugas ke 5 
+##  8. Screenshoot dan Penjelasan Tugas ke 5 
        
        Untuk screenshoot dan penjelasan sudah saya buat di README pada github. Terima Kasih
        
