@@ -23,23 +23,23 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form role="form" action="barang/aksi_tambah_barang.php" method="post">
+            <form role="form" action="barang/aksi_tambah_barang.php" method="POST">
               <div class="box-body">
                 <div class="form-group">
                   <label>Kode Barang</label>
-                  <input type="text" class="form-control" placeholder="Kode Barang" name="kd_barang">
+                  <input type="text" class="form-control" placeholder="Kode Barang" name="kode_barang">
                 </div>
                 <div class="form-group">
                   <label>Kode Jenis</label>
-                  <input type="text" class="form-control" placeholder="Kode Jenis" name="kd_jenis">
+                  <input type="text" class="form-control" placeholder="Kode Jenis" name="kode_jenis">
                 </div>
                 <div class="form-group">
                   <label>Kode Petugas</label>
-                <input type="text" class="form-control" placeholder="Kode Petugas" name="kd_petugas">
+                  <input type="text" class="form-control" placeholder="Kode Petugas" name="kode_barang">
                 </div>
                 <div class="form-group">
                   <label>Nama Barang</label>
-                <input type="text" class="form-control" placeholder="Nama Barang" name="nama_barang">
+                  <input type="text" class="form-control" placeholder="Nama Barang" name="nama_barang">
                 </div>
                 <div class="form-group">
                   <label>Jumlah Barang</label>
@@ -49,7 +49,7 @@
 
                 <div class="form-group">
                   <label>Harga Barang</label>
-                  <input class="form-control" name="harga" type="number">
+                  <input class="form-control" name="harga_barang" type="number">
                 </div>
                 </div>
               

@@ -22,7 +22,7 @@
 
         <li>
           <a href="index.php?hal=petugas">
-            <i class="fa fa-users"></i> <span>Petugas</span>
+            <i class="fa fa-user"></i> <span>Petugas</span>
           </a>
         </li>
 
@@ -34,19 +34,19 @@
 
         <li>
           <a href="index.php?hal=barang">
-            <i class="fa fa-users"></i> <span>Barang</span>
+            <i class="fa fa-shopping-cart"></i> <span>Barang</span>
           </a>
         </li>
 
         <li>
           <a href="index.php?hal=jenis_barang">
-            <i class="fa fa-users"></i> <span>Jenis Barang</span>
+            <i class="fa fa-cart-plus"></i> <span>Jenis Barang</span>
           </a>
         </li>
 
         <li>
           <a href="index.php?hal=transaksi">
-            <i class="fa fa-users"></i> <span>Transaksi</span>
+            <i class="fa fa-opencart"></i> <span>Transaksi</span>
           </a>
         </li>
 

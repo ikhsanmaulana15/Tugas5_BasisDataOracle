@@ -107,8 +107,8 @@ include 'koneksi.php';
                   <td><?php echo $d['JUMLAH_BARANG']?></td>
                   <td><?php echo $d['HARGA']?></td>
                   
-                  <td><a href="index.php?hal=edit_barang&KD_BARANG=<?php echo $d['KD_BARANG']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
-                    <a onclick="return confirm('Anda Yakin...?')" href="barang/hapus_barang.php?KD_BARANG=<?php echo $d['KD_BARANG']?>">
+                  <td><a href="index.php?hal=edit_barang&KD_JENIS=<?php echo $d['KD_JENIS']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
+                    <a onclick="return confirm('Anda Yakin...?')" href="barang/hapus_barang.php?KD_JENIS=<?php echo $d['KD_JENIS']?>">
                     <button type="button" class="btn btn-danger" name=""> <i class="fa fa-trash"></i> Hapus</button></a>
                   </td>
                 </tr>

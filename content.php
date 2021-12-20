@@ -1,6 +1,17 @@
 <?php
     if (isset($_GET['hal'])) {
 
+        if ($_GET['hal']=='petugas') {
+          include "petugas/petugas.php";
+        }
+        elseif ($_GET['hal']=='tambah_petugas') {
+          include "petugas/tambah_petugas.php";
+        }
+        elseif ($_GET['hal']=='edit_petugas') {
+          include "petugas/edit_petugas.php";
+        }
+
+
         if ($_GET['hal']=='barang') {
           include "barang/barang.php";
         }
@@ -21,25 +32,6 @@
           include "jenis_barang/edit_jenis_barang.php";
         }
 
-         if ($_GET['hal']=='pelanggan') {
-          include "pelanggan/pelanggan.php";
-        }
-        elseif ($_GET['hal']=='tambah_pelanggan') {
-          include "pelanggan/tambah_pelanggan.php";
-        }
-        elseif ($_GET['hal']=='edit_pelanggan') {
-          include "pelanggan/edit_pelanggan.php";
-        }
-
-         if ($_GET['hal']=='petugas') {
-          include "petugas/petugas.php";
-        }
-        elseif ($_GET['hal']=='tambah_petugas') {
-          include "petugas/tambah_petugas.php";
-        }
-        elseif ($_GET['hal']=='edit_petugas') {
-          include "petugas/edit_petugas.php";
-        }
 
         if ($_GET['hal']=='transaksi') {
           include "transaksi/transaksi.php";
@@ -51,6 +43,16 @@
           include "transaksi/edit_transaksi.php";
         }
 
+
+        if ($_GET['hal']=='pelanggan') {
+          include "pelanggan/pelanggan.php";
+        }
+        elseif ($_GET['hal']=='tambah_pelanggan') {
+          include "pelanggan/tambah_pelanggan.php";
+        }
+        elseif ($_GET['hal']=='edit_pelanggan') {
+          include "pelanggan/edit_pelanggan.php";
+        }
         else
         {
           include "home.php";
@@ -58,7 +60,6 @@
     }else{
     include "home.php";
     }
-
-
-    
 ?>
+
+
